@@ -1,5 +1,5 @@
 services:
   - type: web
-    name: <anything>
+    name: sciencelearning
     env: docker
     plan: free

@@ -2,9 +2,9 @@ FROM node:20-alpine
 
 RUN apk add --no-cache git
 
-RUN git clone https://github.com/<github account name>/<the interstellar fork>
+RUN git clone https://https://github.com/interstellarv6/mathtime
 
-WORKDIR /<the interstellar fork>
+WORKDIR /mathtime
 
 RUN npm install
 
